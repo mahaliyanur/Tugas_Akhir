@@ -5,16 +5,18 @@
  */
 package database;
 
+/**
+ *
+ * @author fauzimakarim
+ */
+
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author syarifuddin
- */
+
 public class Koneksi {
     
     
@@ -30,7 +32,7 @@ public class Koneksi {
             
             try {
                 
-                connect = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","oraclejava","oraclejava123");
+                connect = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","mahaliyanur_bima_kusuma_06936","mahaliyanur");
                 System.out.println("Koneksi Database Sukses !");
                 
             } catch (SQLException ex) {

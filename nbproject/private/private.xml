@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/database/Koneksi.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/model/Barang.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/model/Jenis.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/view/Transaksiview.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/model/Transaksi_Pesan.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/model/Login.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/controller/Transaksi.java</file>
+            <file>file:/C:/Users/user/Downloads/BasisData%20Modul%205/ManagementTransaksi_06948/src/model/Kategori.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author syarifuddin
+ * @author fauzimakarim
  */
 public class Kategori {
     
