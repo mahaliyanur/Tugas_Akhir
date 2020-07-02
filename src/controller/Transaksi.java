@@ -131,9 +131,10 @@ public class Transaksi {
 
         try {
 
+            String datePemesanan = new SimpleDateFormat("dd/MM/yyyy").format(pemesanan.getTanggal_transaksi());
             this.koneksi.ManipulasiData("INSERT INTO TRANSAKSI_06936"
-                    + "(ID_TRANSAKSI, ID_LOGIN, ID_BARANG, TANGGAL_TRANSAKSI, JUM_BARANG, HARGA_TOTAL)"
-                    + "VALUES(ID_TRANSAKSI.NEXTVAL, " + pemesanan.getLogin().getId_login() + ", " + pemesanan.getBarang().getId_barang() + ", TO_DATE('" + pemesanan.getTanggal_transaksi() + "','dd/MM/yyyy'),'" + pemesanan.getJum_barang() + "', " + pemesanan.getHarga_Total().toString() + ")");
+                    + "(ID_TRANSAKSI, ID_LOGIN, ID_BARANG, TANGGAL_TRANSAKSI, JUM_BARANG, HARGA_TOTAL)\n"
+                    + "VALUES(ID_TRANSAKSI.NEXTVAL, " + pemesanan.getLogin().getId_login() + ", " + pemesanan.getBarang().getId_barang() + ", TO_DATE('" + datePemesanan + "','dd/MM/yyyy'),'" + pemesanan.getJum_barang() + "', " + pemesanan.getHarga_Total().toString() + ")");
             ResultSet rsp = this.koneksi.getData("select id_transaksi.currval from dual");
             rsp.next();
             int id_transaksi = rsp.getInt("currval");

@@ -212,7 +212,7 @@ public class Transaksiview extends javax.swing.JFrame {
         try {
             
             String date = dtf.format(now);
-            pemesanan.setTanggal_transaksi(date);
+            pemesanan.setTanggal_transaksi(new Date());
             pemesanan.setHarga_Total(this.hargaTotal);
     
             this.transaksi.insertTransaksi(pemesanan);

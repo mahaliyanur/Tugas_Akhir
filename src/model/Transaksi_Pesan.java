@@ -16,7 +16,7 @@ public class Transaksi_Pesan {
     private Integer Id_transaksi;
     private Barang barang;
     private Login login;
-    private String Tanggal_transaksi;
+    private Date Tanggal_transaksi;
     private Integer Jum_barang;
     private Double Harga_Total;
     private ArrayList<Transaksi_Pesan> arr_transaksi;
@@ -45,11 +45,11 @@ public class Transaksi_Pesan {
         this.login = login;
     }
 
-    public String getTanggal_transaksi() {
+    public Date getTanggal_transaksi() {
         return Tanggal_transaksi;
     }
 
-    public void setTanggal_transaksi(String Tanggal_transaksi) {
+    public void setTanggal_transaksi(Date Tanggal_transaksi) {
         this.Tanggal_transaksi = Tanggal_transaksi;
     }
     
